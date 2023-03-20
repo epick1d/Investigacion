@@ -1,0 +1,80 @@
+
+body {
+  background: linear-gradient(to bottom, #ecb605 0%, #ff99cc 100%);
+}
+form {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+label, input, select, textarea {
+  border-radius: 5px;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  
+}
+input[type="radio"], input[type="checkbox"], label {
+  color: #000000;
+  
+}
+
+input[type="radio"], input[type="checkbox"] {
+  background-color: #fff;
+}
+input[type="radio"]:hover, input[type="checkbox"]:hover, label:hover {
+  background-color: #eee;
+  border-color: #333;
+}
+form {
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+input[type="text"], select, textarea {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+input[type="submit"], input[type="reset"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #3e8e41;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"], select, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+h1, h2, h3, p {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  width: 100%; /* Agregar esta línea */
+}
+
+/* Estilos para el logo */
+header img {
+  width: 30em;
+  height: auto;
+  margin-bottom: 1rem;
+}
